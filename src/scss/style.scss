@@ -19,7 +19,8 @@
 .navbar li{
   list-style-type: none;
   display: inline-block; 
-  padding: 20px; 
+  padding: 20px;
+  margin-left: 50px; 
 }
 
 /* main area */ 
@@ -31,9 +32,11 @@
 
 .main-area img{
   margin: 20px; 
-  padding-left: 150px;
-    @media (max-width: 500p) {
-       width: 80%; 
+  object-position: 120px 10px;
+    @media (max-width: 800px) {
+          width: 80%; 
+          height: 50%; 
+          object-position: 50px 20px;
     }
 }
 
@@ -59,8 +62,13 @@
 }
 
 .map img {
-  padding-left: 150px;
-  overflow: visible; 
+  margin: 20px; 
+  object-position: 120px 10px;
+    @media (max-width: 800px) {
+          width: 80%; 
+          height: 50%; 
+          object-position: 50px 20px;
+    } 
 }
 
 /* footer */ 
@@ -68,6 +76,10 @@
   background-color: grey;
   color: white;
   height: 220px; 
+       @media (max-width: 800px) {
+            width: 80%; 
+            height: 50%; 
+     }
 }
 
 .footer-navbar li{
@@ -75,22 +87,40 @@
   list-style-type: none; 
   padding-left: 200px;
   margin: 20px;
-  padding-top: 40px;  
+  padding-top: 40px; 
+    @media (max-width: 800px) {
+       display: flex; 
+       flex-direction: column; 
+       justify-content: space-around;
+       margin: 0; 
+    } 
 }
 
 .bottom .text-one{
   margin: 10px; 
   text-transform: uppercase;
   padding-left: 400px;
+     @media (max-width: 800px) {
+        padding-left: 150px;
+        margin: 20px; 
+     }
 }
 
 .bottom .text-two {
   margin: 10px; 
   padding-left: 400px;
+      @media (max-width: 800px) {
+        padding-left: 150px;
+        margin: 20px; 
+    }
 }
 
 .bottom .text-three {
   margin: 10px; 
   padding-left: 400px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
+  @media (max-width: 800px) {
+    padding-left: 150px;
+    margin: 20px; 
+   }     
 }
