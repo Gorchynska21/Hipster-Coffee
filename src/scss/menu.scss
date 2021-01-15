@@ -1,0 +1,61 @@
+
+p, h2, h3, h4 {
+    margin: 0;
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin: 0;
+}
+
+.menu__container-section {
+	width: 70%;
+	color: black;
+	background-color: grey;
+	text-align: left;
+    padding: 0.75rem;
+    margin: 0;
+
+}
+
+.menu__container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.drink__section {
+    background:lightgreen;
+    padding-top: 0.25em;
+    padding-left: 1rem;
+    text-align: start;
+        
+}
+
+
+.drink__line {
+    background: lightpink;
+    display: flex;
+    
+
+}
+
+.drink__progress-bar {
+	width: 80%;
+	background-color: #ebebeb;
+	padding: 0;
+	text-align: left;
+	position: relative;
+}
+
+.drink__progress--price {
+	background-color:red;
+	height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
