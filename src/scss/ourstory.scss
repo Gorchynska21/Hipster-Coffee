@@ -41,6 +41,11 @@ body{
 
 img {
   border: 5px white solid; 
+      @media (max-width: 800px) {
+        width: 50%; 
+        height: 30%; 
+        object-position: 10px 5px;
+    } 
 }
 
 /* footer */ 
