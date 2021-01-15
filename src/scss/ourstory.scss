@@ -1,0 +1,98 @@
+/* globally applied */ 
+* {
+  margin:0; 
+  padding:0; 
+}
+
+body{
+  border: 20px white solid; 
+  padding: 20px; 
+}
+
+/* navbar */ 
+.navbar {
+  background-color: grey;
+  padding: 20px; 
+  color: white; 
+}
+
+.navbar li{
+  list-style-type: none;
+  display: inline-block; 
+  padding: 20px;
+  margin-left: 50px; 
+}
+
+/* main area */ 
+.text {
+  border: 5px white solid; 
+  background-image: url(src/img/coffeecups.jpg);
+  background-color: lightgrey;
+  text-align: center;
+  padding: 50px; 
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 50px;
+}
+
+.text p{
+  border: 5px white solid; 
+}
+
+img {
+  border: 5px white solid; 
+}
+
+/* footer */ 
+.bottom{
+  background-color: grey;
+  color: white;
+  height: 220px; 
+       @media (max-width: 800px) {
+            width: 80%; 
+            height: 50%; 
+     }
+}
+
+.footer-navbar li{
+  display: inline-block; 
+  list-style-type: none; 
+  padding-left: 200px;
+  margin: 20px;
+  padding-top: 40px; 
+    @media (max-width: 800px) {
+       display: flex; 
+       flex-direction: column; 
+       justify-content: space-around;
+       margin: 0; 
+    } 
+}
+
+.bottom .text-one{
+  margin: 10px; 
+  text-transform: uppercase;
+  padding-left: 400px;
+     @media (max-width: 800px) {
+        padding-left: 150px;
+        margin: 20px; 
+     }
+}
+
+.bottom .text-two {
+  margin: 10px; 
+  padding-left: 400px;
+      @media (max-width: 800px) {
+        padding-left: 150px;
+        margin: 20px; 
+    }
+}
+
+.bottom .text-three {
+  margin: 10px; 
+  padding-left: 400px;
+  padding-bottom: 50px;
+  @media (max-width: 800px) {
+    padding-left: 150px;
+    margin: 20px; 
+   }     
+}
