@@ -1,0 +1,96 @@
+/* globally applied */ 
+* {
+  margin:0; 
+  padding:0; 
+}
+
+.container{
+  background: lightgrey; 
+  border: 20px white solid; 
+}
+
+/* navbar */ 
+.navbar {
+  background-color: grey;
+  padding: 20px; 
+  color: white; 
+}
+
+.navbar li{
+  list-style-type: none;
+  display: inline-block; 
+  padding: 20px; 
+}
+
+/* main area */ 
+.main-area{
+  background-color: lightgrey;
+  border: 2px white solid; 
+  padding: 20px; 
+}
+
+.main-area img{
+  margin: 20px; 
+  padding-left: 150px;
+    @media (max-width: 500p) {
+       width: 80%; 
+    }
+}
+
+.main-area h1,h2{
+  margin: 10px; 
+  padding-left: 150px;
+}
+
+.main-area .boxes{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-area .box{
+  flex-wrap: wrap;
+  padding: 30px; 
+}
+
+.main-area .box h3{
+  padding: 10px; 
+  text-transform: uppercase;
+}
+
+.map img {
+  padding-left: 150px;
+  overflow: visible; 
+}
+
+/* footer */ 
+.bottom{
+  background-color: grey;
+  color: white;
+  height: 220px; 
+}
+
+.footer-navbar li{
+  display: inline-block; 
+  list-style-type: none; 
+  padding-left: 200px;
+  margin: 20px;
+  padding-top: 40px;  
+}
+
+.bottom .text-one{
+  margin: 10px; 
+  text-transform: uppercase;
+  padding-left: 400px;
+}
+
+.bottom .text-two {
+  margin: 10px; 
+  padding-left: 400px;
+}
+
+.bottom .text-three {
+  margin: 10px; 
+  padding-left: 400px;
+  padding-bottom: 50px; 
+}
